@@ -178,135 +178,135 @@ namespace UnitConverter
                         }
                     case "аршин":
                         {
-                            textBox2.Text += Convert.ToString(result / 0.71 * 1000000000) + " нм " + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.71 * 1000000) + " мкм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.71 * 1000) + " мм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.71 * 100) + " см \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.71 * 10) + " дм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.71) + " м \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.71 / 1000) + " км \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.71 * 1609.34) + " миль \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.71 * 1000000000) + " нм " + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.71 * 1000000) + " мкм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.71 * 1000) + " мм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.71 * 100) + " см \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.71 * 10) + " дм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.71) + " м \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.71 / 1000) + " км \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.71 / 1609.34) + " миль \n" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result) + " аршин \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.71 * 0.044) + " вершок \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.71 * 0.025) + " дюйм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.71 * 0.45) + " локтей \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.71 * 0.18) + " пядей \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.71 * 2.13) + " сажней \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.71 * 0.3) + " фут \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.71 / 0.044) + " вершок \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.71 / 0.025) + " дюйм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.71 / 0.45) + " локтей \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.71 / 0.18) + " пядей \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.71 / 2.13) + " сажней \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.71 / 0.3) + " фут \n" + Environment.NewLine;
                             break;
                         }
                     case "вершок":
                         {
-                            textBox2.Text += Convert.ToString(result / 0.044 * 1000000000) + " нм " + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.044 * 1000000) + " мкм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.044 * 1000) + " мм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.044 * 100) + " см \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.044 * 10) + " дм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.044) + " м \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.044 / 1000) + " км \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.044 * 1609.34) + " миль \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.044 * 1000000000) + " нм " + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.044 * 1000000) + " мкм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.044 * 1000) + " мм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.044 * 100) + " см \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.044 * 10) + " дм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.044) + " м \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.044 / 1000) + " км \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.044 / 1609.34) + " миль \n" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result) + "вершок \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.044 * 0.71) + " аршин \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.044 * 0.025) + " дюйм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.044 * 0.45) + " локтей \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.044 * 0.18) + " пядей \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.044 * 2.13) + " сажней \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.044 * 0.3) + " фут \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.044 / 0.71) + " аршин \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.044 / 0.025) + " дюйм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.044 / 0.45) + " локтей \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.044 / 0.18) + " пядей \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.044 / 2.13) + " сажней \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.044 / 0.3) + " фут \n" + Environment.NewLine;
                             break;
                         }
                     case "дюйм":
                         {
-                            textBox2.Text += Convert.ToString(result / 0.025 * 1000000000) + " нм " + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.025 * 1000000) + " мкм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.025 * 1000) + " мм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.025 * 100) + " см \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.025 * 10) + " дм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.025) + " м \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.025 / 1000) + " км \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.025 * 1609.34) + " миль \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.025 * 1000000000) + " нм " + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.025 * 1000000) + " мкм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.025 * 1000) + " мм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.025 * 100) + " см \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.025 * 10) + " дм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.025) + " м \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.025 / 1000) + " км \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.025 / 1609.34) + " миль \n" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result) + "дюйм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.025 * 0.71) + " аршин \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.025 * 0.044) + " вершок \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.025 * 0.45) + " локтей \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.025 * 0.18) + " пядей \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.025 * 2.13) + " сажней \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.025 * 0.3) + " фут \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.025 / 0.71) + " аршин \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.025 / 0.044) + " вершок \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.025 / 0.45) + " локтей \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.025 / 0.18) + " пядей \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.025 / 2.13) + " сажней \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.025 / 0.3) + " фут \n" + Environment.NewLine;
                             break;
                         }
                     case "локоть":
                         {
-                            textBox2.Text += Convert.ToString(result / 0.45 * 1000000000) + " нм " + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.45 * 1000000) + " мкм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.45 * 1000) + " мм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.45 * 100) + " см \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.45 * 10) + " дм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.45) + " м \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.45 / 1000) + " км \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.45 * 1609.34) + " миль \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.45 * 1000000000) + " нм " + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.45 * 1000000) + " мкм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.45 * 1000) + " мм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.45 * 100) + " см \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.45 * 10) + " дм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.45) + " м \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.45 / 1000) + " км \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.45 / 1609.34) + " миль \n" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result) + "локоть \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.45 * 0.71) + " верста \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.45 * 0.025) + " дюйм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.45 * 0.044) + "вершков \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.45 * 0.18) + " пядей \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.45 * 2.13) + " сажней \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.45 * 0.3) + " фут \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.45 / 0.71) + " верста \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.45 / 0.025) + " дюйм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.45 / 0.044) + "вершков \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.45 / 0.18) + " пядей \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.45 / 2.13) + " сажней \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.45 / 0.3) + " фут \n" + Environment.NewLine;
                             break;
                         }
                     case "пядь":
                         {
-                            textBox2.Text += Convert.ToString(result / 0.18 * 1000000000) + " нм " + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.18 * 1000000) + " мкм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.18 * 1000) + " мм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.18 * 100) + " см \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.18 * 10) + " дм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.18) + " м \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.18 / 1000) + " км \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.18 * 1609.34) + " миль \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.18 * 1000000000) + " нм " + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.18 * 1000000) + " мкм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.18 * 1000) + " мм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.18 * 100) + " см \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.18 * 10) + " дм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.18) + " м \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.18 / 1000) + " км \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.18 / 1609.34) + " миль \n" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result) + "пядей \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.18 * 0.71) + " верста \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.18 * 0.025) + " дюйм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.18 * 0.044) + "вершков \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.18 * 0.45) + " локтей \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.18 * 2.13) + " сажней \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.18 * 0.3) + " фут \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.18 / 0.71) + " верста \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.18 / 0.025) + " дюйм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.18 / 0.044) + "вершков \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.18 / 0.45) + " локтей \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.18 / 2.13) + " сажней \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.18 / 0.3) + " фут \n" + Environment.NewLine;
                             break;
                         }
                     case "сажень":
                         {
-                            textBox2.Text += Convert.ToString(result / 2.13 * 1000000000) + " нм " + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 2.13 * 1000000) + " мкм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 2.13 * 1000) + " мм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 2.13 * 100) + " см \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 2.13 * 10) + " дм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 2.13) + " м \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 2.13 / 1000) + " км \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 2.13 * 1609.34) + " миль \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 2.13 * 1000000000) + " нм " + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 2.13 * 1000000) + " мкм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 2.13 * 1000) + " мм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 2.13 * 100) + " см \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 2.13 * 10) + " дм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 2.13) + " м \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 2.13 / 1000) + " км \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 2.13 * 1609.34) + " миль \n" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result) + "сажень \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 2.13 * 0.71) + " верста \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 2.13 * 0.025) + " дюйм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 2.13 * 0.044) + "вершков \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 2.13 * 0.45) + " локтей \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 2.13 * 0.18) + " пядей \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 2.13 * 0.3) + " фут \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 2.13 / 0.71) + " верста \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 2.13 / 0.025) + " дюйм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 2.13 / 0.044) + "вершков \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 2.13 / 0.45) + " локтей \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 2.13 / 0.18) + " пядей \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 2.13 / 0.3) + " фут \n" + Environment.NewLine;
                             break;
                         }
                     case "фут":
                         {
-                            textBox2.Text += Convert.ToString(result / 0.3 * 1000000000) + " нм " + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.3 * 1000000) + " мкм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.3 * 1000) + " мм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.3 * 100) + " см \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.3 * 10) + " дм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.3) + " м \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.3 / 1000) + " км \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.3 * 1609.34) + " миль \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.3048 * 1000000000) + " нм " + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.3048 * 1000000) + " мкм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.3048 * 1000) + " мм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.3048 * 100) + " см \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.3048 * 10) + " дм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.3048) + " м \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.3048 / 1000) + " км \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.3048 / 1609.34) + " миль \n" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result) + "фут \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.3 * 0.71) + " верста \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.3 * 0.025) + " дюйм \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.3 * 0.044) + "вершков \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.3 * 0.45) + " локтей \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.3 * 0.18) + " пядей \n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / 0.3 * 2.13) + " сажень \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.3048 / 0.71) + " верста \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.3048 / 0.025) + " дюйм \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.3048 / 0.044) + "вершков \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.3048 / 0.45) + " локтей \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.3048 / 0.18) + " пядей \n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * 0.3048 / 2.13) + " сажень \n" + Environment.NewLine;
                             break;
                         }
                     case "миллиметр квадратный, мм²":
@@ -315,7 +315,7 @@ namespace UnitConverter
                             textBox2.Text += Convert.ToString(result / Math.Pow(10,2)) + " см²" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result / Math.Pow(10,4)) + " дм²" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result / Math.Pow(10,6)) + " м²" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / Math.Pow(10,8)) + " км²" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result / Math.Pow(10,12)) + " км²" + Environment.NewLine;
                             break;
                         }
                     case "сантиметр квадратный, см²":
@@ -324,7 +324,7 @@ namespace UnitConverter
                             textBox2.Text += Convert.ToString(result) + " см²" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result / Math.Pow(10, 2)) + " дм²" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result / Math.Pow(10, 4)) + " м²" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / Math.Pow(10, 6)) + " км²" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result / Math.Pow(10, 8)) + " км²" + Environment.NewLine;
                             break;
                         }
                     case "дециметр квадратный, дм²":
@@ -333,7 +333,7 @@ namespace UnitConverter
                             textBox2.Text += Convert.ToString(result * Math.Pow(10, 2)) + " см²" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result) + "дм²" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result / Math.Pow(10, 2)) + " м²" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / Math.Pow(10, 4)) + " км²" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result / Math.Pow(10, 6)) + " км²" + Environment.NewLine;
                             break;
                         }
                     case "метр квадратный, м²":
@@ -342,15 +342,15 @@ namespace UnitConverter
                             textBox2.Text += Convert.ToString(result * Math.Pow(10, 4)) + " см²" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result * Math.Pow(10, 2)) + " дм²" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result) + " м²" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result / Math.Pow(10, 2)) + " км²" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result / Math.Pow(10, 6)) + " км²" + Environment.NewLine;
                             break;
                         }
                     case "километр квадратный, км²":
                         {
-                            textBox2.Text += Convert.ToString(result * Math.Pow(10, 8)) + " мм²" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result * Math.Pow(10, 6)) + " см²" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result * Math.Pow(10, 4)) + " дм²" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result * Math.Pow(10, 2)) + " м²" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * Math.Pow(10, 12)) + " мм²" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * Math.Pow(10, 10)) + " см²" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * Math.Pow(10, 8)) + " дм²" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * Math.Pow(10, 6)) + " м²" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result) + " км²" + Environment.NewLine;
                             break;
                         }
@@ -386,16 +386,16 @@ namespace UnitConverter
                             textBox2.Text += Convert.ToString(result * Math.Pow(10, 9)) + " мм³" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result * Math.Pow(10, 6)) + " см³" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result * Math.Pow(10, 3)) + " дм³" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result) + " м²" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result) + " м³" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result / Math.Pow(10, 3)) + " км³" + Environment.NewLine;
                             break;
                         }
                     case "километр кубический, км³":
                         {
-                            textBox2.Text += Convert.ToString(result * Math.Pow(10, 8)) + " мм³" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result * Math.Pow(10, 6)) + " см³" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result * Math.Pow(10, 4)) + " дм³" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result * Math.Pow(10, 2)) + " м³" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * Math.Pow(10, 12)) + " мм³" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * Math.Pow(10, 9)) + " см³" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * Math.Pow(10, 6)) + " дм³" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * Math.Pow(10, 3)) + " м³" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result) + " км³" + Environment.NewLine;
                             break;
                         }
@@ -579,21 +579,21 @@ namespace UnitConverter
                     case "градус":
                         {
                             textBox2.Text += Convert.ToString(result) + " °\n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString(result * Math.PI / 360) + " рад\n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result * Math.PI / 180) + " рад\n" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result * 10 / 9) + " град\n" + Environment.NewLine;
                             break;
                         }
                     case "радиан":
                         {
-                            textBox2.Text += Convert.ToString(result / Math.PI * 360) + " °\n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString(result / Math.PI * 180) + " °\n" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result) + " рад\n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString((result / Math.PI * 360) * 10 / 9) + " град\n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString((result / Math.PI * 180) * 10 / 9) + " град\n" + Environment.NewLine;
                             break;
                         }
                     case "град":
                         {
                             textBox2.Text += Convert.ToString(result * 9 / 10) + " °\n" + Environment.NewLine;
-                            textBox2.Text += Convert.ToString((result * 9 / 10) * Math.PI / 360) + " рад\n" + Environment.NewLine;
+                            textBox2.Text += Convert.ToString((result * 9 / 10) * Math.PI / 180) + " рад\n" + Environment.NewLine;
                             textBox2.Text += Convert.ToString(result) + " град\n" + Environment.NewLine;
                             break;
                         }
@@ -1144,7 +1144,8 @@ namespace UnitConverter
         }
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            if (listBox1.SelectedIndex >= 0)
+            double num;
+            if ((listBox1.SelectedIndex >= 0) && (double.TryParse(textBox1.Text, out num)))
             {
                 textBox2.Text = "";
                 ShowResult();

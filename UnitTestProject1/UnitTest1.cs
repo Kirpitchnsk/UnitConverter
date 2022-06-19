@@ -46,8 +46,8 @@ namespace UnitTestProject1
         {
             Form1 f = new Form1();
             f.textBox1.Text = "12";
-            Object actual = Convert.ToInt32(f.textBox1.Text);
-            if (!(actual is Int32))
+            Object actual = Convert.ToDouble(f.textBox1.Text);
+            if (!(actual is Double))
             {
                 Assert.Fail("Fatal: Error");
             }
