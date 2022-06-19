@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitConverter", "UnitConver
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{1D617F7C-2E0B-41FD-A394-0910EB8CF6D0}"
 EndProject
-Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "WapProjTemplate1", "..\WapProjTemplate1\WapProjTemplate1.wapproj", "{34110F06-5194-40AF-B439-DFAFDCF64AF3}"
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "WapProjTemplate1", "WapProjTemplate1\WapProjTemplate1.wapproj", "{34110F06-5194-40AF-B439-DFAFDCF64AF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
