@@ -13,8 +13,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Setup .NET Framework
-      uses: actions/setup-dotnet@v2
+    - name: .NetFramework Action Template
+  # You may pin to the exact commit or the version.
+  # uses: auycro/netframework-action-template@deba41046476eafda3085696a64fd529fcca0bad
+    - uses: auycro/netframework-action-template@v0.0.2
       with:
         dotnet-version: 4.7.x
     - name: Restore dependencies
