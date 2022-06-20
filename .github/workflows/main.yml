@@ -29,6 +29,3 @@ jobs:
     
     - name: Restore NuGet packages
       run: nuget restore UnitConverter.sln
-    
-    - name: Build the Solution
-      run: msbuild UnitConverter.sln /p:Configuration=Release
