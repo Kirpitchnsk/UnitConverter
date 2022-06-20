@@ -7,12 +7,12 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="26500cb8-fa5b-432c-9b41-2aa0e0404836"
+    Name="f354fab5-9023-4c6d-9dca-e3dba93e547b"
     Publisher="CN=nskru"
     Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>WapProjTemplate1</DisplayName>
+    <DisplayName>WapProjTemplate2</DisplayName>
     <PublisherDisplayName>nskru</PublisherDisplayName>
     <Logo>Images\StoreLogo.png</Logo>
   </Properties>
@@ -31,8 +31,8 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="WapProjTemplate1"
-        Description="WapProjTemplate1"
+        DisplayName="WapProjTemplate2"
+        Description="WapProjTemplate2"
         BackgroundColor="transparent"
         Square150x150Logo="Images\Square150x150Logo.png"
         Square44x44Logo="Images\Square44x44Logo.png">
